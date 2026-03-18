@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Map</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      background: #0f0f0f;
+      overflow: hidden;
+    }
+
+    #map-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .country {
+      fill: #2a2a2a;
+      stroke: #3d3d3d;
+      stroke-width: 0.4px;
+      transition: fill 0.15s ease;
+    }
+
+    .country.visited {
+      fill: #e8c170;
+      cursor: pointer;
+    }
+
+    .country.visited:hover {
+      fill: #f5d68a;
+    }
+
+    .city-dot {
+      fill: #0f0f0f;
+      stroke: #e8c170;
+      stroke-width: 1.5px;
+      pointer-events: none;
+    }
+
+    .city-pulse {
+      fill: none;
+      stroke: rgba(232, 193, 112, 0.4);
+      stroke-width: 1px;
+      pointer-events: none;
+    }
+
+    .graticule {
+      fill: none;
+      stroke: #1a1a1a;
+      stroke-width: 0.3px;
+    }
+
+    .sphere {
+      fill: #111418;
+    }
+
+    #tooltip {
+      position: fixed;
+      background: rgba(10, 10, 10, 0.9);
+      color: #f0f0f0;
+      padding: 6px 12px;
+      border-radius: 4px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      pointer-events: none;
+      display: none;
+      border: 1px solid rgba(232, 193, 112, 0.3);
+      white-space: nowrap;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <div id="map-container"></div>
+  <div id="tooltip"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
+  <script>
+    // Cities to pin (for country-named trips that reference a specific city)
+    const cities = [
+      { label: 'Chengdu', coords: [104.0665, 30.5728] },
+      { label: 'Banff',   coords: [-115.5708, 51.1784] },
+      { label: 'London',  coords: [-0.1276, 51.5074] },
+    ];
+
+    // Visited countries: ISO numeric code → { label, url }
+    const visited = {
+      764: { label: 'Thailand',    url: 'https://bezaitis.com/trips/thailand' },
+      158: { label: 'Taiwan',      url: 'https://bezaitis.com/trips/taiwan' },
+      156: { label: 'Chengdu',     url: 'https://bezaitis.com/trips/chengdu' },
+      446: { label: 'Macao',       url: 'https://bezaitis.com/trips/macao' },
+       36: { label: 'Australia',   url: 'https://bezaitis.com/trips/australia' },
+      554: { label: 'New Zealand', url: 'https://bezaitis.com/trips/new-zealand' },
+      578: { label: 'Norway',      url: 'https://bezaitis.com/trips/norway' },
+      124: { label: 'Banff',       url: 'https://bezaitis.com/trips/banff' },
+      528: { label: 'Netherlands', url: 'https://bezaitis.com/trips/netherlands' },
+      784: { label: 'UAE',         url: 'https://bezaitis.com/trips/uae' },
+      818: { label: 'Egypt',       url: 'https://bezaitis.com/trips/egypt' },
+      604: { label: 'Peru',        url: 'https://bezaitis.com/trips/peru' },
+      392: { label: 'Japan',       url: 'https://bezaitis.com/trips/japan' },
+      826: { label: 'London',      url: 'https://bezaitis.com/trips/london' },
+      300: { label: 'Greece',      url: 'https://bezaitis.com/trips/greece' },
+    };
+
+    const tooltip = document.getElementById('tooltip');
+    const container = document.getElementById('map-container');
+
+    function getSize() {
+      return [container.clientWidth, container.clientHeight];
+    }
+
+    const svg = d3.select('#map-container')
+      .append('svg')
+      .attr('preserveAspectRatio', 'xMidYMid meet');
+
+    const g = svg.append('g');
+
+    let projection, pathGen;
+
+    function setupProjection(width, height) {
+      projection = d3.geoNaturalEarth1()
+        .fitSize([width, height], { type: 'Sphere' });
+      pathGen = d3.geoPath().projection(projection);
+    }
+
+    d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json').then(world => {
+      const countries = topojson.feature(world, world.objects.countries);
+
+      const [w, h] = getSize();
+      setupProjection(w, h);
+
+      svg.attr('viewBox', `0 0 ${w} ${h}`);
+
+      // Ocean sphere
+      g.append('path')
+        .datum({ type: 'Sphere' })
+        .attr('class', 'sphere')
+        .attr('d', pathGen);
+
+      // Graticule
+      g.append('path')
+        .datum(d3.geoGraticule()())
+        .attr('class', 'graticule')
+        .attr('d', pathGen);
+
+      // Countries
+      g.selectAll('.country')
+        .data(countries.features)
+        .join('path')
+        .attr('class', d => {
+          const id = +d.id;
+          return visited[id] ? 'country visited' : 'country';
+        })
+        .attr('d', pathGen)
+        .on('mousemove', function(event, d) {
+          const id = +d.id;
+          const info = visited[id];
+          if (!info) return;
+          tooltip.style.display = 'block';
+          tooltip.textContent = info.label;
+          tooltip.style.left = (event.clientX + 14) + 'px';
+          tooltip.style.top  = (event.clientY - 28) + 'px';
+        })
+        .on('mouseleave', function(event, d) {
+          const id = +d.id;
+          if (!visited[id]) return;
+          tooltip.style.display = 'none';
+        })
+        .on('click', function(event, d) {
+          const id = +d.id;
+          const info = visited[id];
+          if (!info) return;
+          window.open(info.url, '_blank', 'noopener,noreferrer');
+        });
+
+      // City markers — outer pulse ring + inner dot
+      const cityGroups = g.selectAll('.city-group')
+        .data(cities)
+        .join('g')
+        .attr('class', 'city-group');
+
+      cityGroups.append('circle')
+        .attr('class', 'city-pulse')
+        .attr('r', 5.5);
+
+      cityGroups.append('circle')
+        .attr('class', 'city-dot')
+        .attr('r', 2.8);
+
+      function positionCities() {
+        cityGroups.attr('transform', d => {
+          const [x, y] = projection(d.coords);
+          return `translate(${x},${y})`;
+        });
+      }
+
+      positionCities();
+
+      // Redraw on resize
+      const ro = new ResizeObserver(() => {
+        const [nw, nh] = getSize();
+        if (nw === 0 || nh === 0) return;
+        setupProjection(nw, nh);
+        svg.attr('viewBox', `0 0 ${nw} ${nh}`);
+        g.selectAll('path').attr('d', pathGen);
+        positionCities();
+      });
+      ro.observe(container);
+    });
+  </script>
+</body>
+</html>
