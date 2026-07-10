@@ -16,16 +16,7 @@ OUTPUT_DIR = Path.home() / "Downloads" / "my-site"
 ZIP_PATH = Path.home() / "Downloads" / "my-site-final.zip"
 
 PAGES = [
-    ("/", "index.html"),
-    ("/about", "about.html"),
-    ("/work", "work.html"),
     ("/poppy", "poppy.html"),
-    ("/trips", "trips.html"),
-    ("/work/adtalem-global-education-inc", "work/adtalem-global-education-inc.html"),
-    ("/work/progress-software-corporation", "work/progress-software-corporation.html"),
-    ("/work/sandia-national-labs-datathon", "work/sandia-national-labs-datathon.html"),
-    ("/work/goosehead-insurance", "work/goosehead-insurance.html"),
-    ("/work/statistical-modeling-final-project", "work/statistical-modeling-final-project.html"),
     ("/trips/thailand", "trips/thailand.html"),
     ("/trips/taiwan", "trips/taiwan.html"),
     ("/trips/chengdu", "trips/chengdu.html"),
@@ -36,20 +27,24 @@ PAGES = [
     ("/trips/banff", "trips/banff.html"),
     ("/trips/netherlands", "trips/netherlands.html"),
     ("/trips/uae", "trips/uae.html"),
-    ("/trips/egypt", "trips/egypt.html"),
     ("/trips/peru", "trips/peru.html"),
     ("/trips/japan", "trips/japan.html"),
     ("/trips/london", "trips/london.html"),
     ("/trips/greece", "trips/greece.html"),
+    ("/trips/taiwan-solo", "trips/taiwan-solo.html"),
+    ("/trips/beijing", "trips/beijing.html"),
+    ("/trips/shanghai", "trips/shanghai.html"),
+    ("/trips/vietnam", "trips/vietnam.html"),
+    ("/trips/south-korea", "trips/south-korea.html"),
 ]
 
 
 async def scrape_page(page, url: str, output_path: Path) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     print(f"  Scraping {url} -> {output_path.relative_to(OUTPUT_DIR.parent)}")
-    await page.goto(url, wait_until="networkidle", timeout=60_000)
-    # Extra wait to let lazy-loaded images / animations settle
-    await page.wait_for_timeout(1500)
+    await page.goto(url, wait_until="load", timeout=60_000)
+    # Extra wait to let JS/React hydrate and lazy content render
+    await page.wait_for_timeout(3000)
     html = await page.content()
     soup = BeautifulSoup(html, "html.parser")
     badge = soup.find("div", id="__framer-badge-container")

@@ -41,6 +41,12 @@ PAGES = [
     ("/trips/japan", "trips/japan.html"),
     ("/trips/london", "trips/london.html"),
     ("/trips/greece", "trips/greece.html"),
+    ("/trips/taiwan-solo", "trips/taiwan-solo.html"),
+    ("/trips/beijing", "trips/beijing.html"),
+    ("/trips/shanghai", "trips/shanghai.html"),
+    ("/trips/philippines", "trips/philippines.html"),
+    ("/trips/vietnam", "trips/vietnam.html"),
+    ("/trips/south-korea", "trips/south-korea.html"),
 ]
 
 
