@@ -1,0 +1,722 @@
+{
+ "name": "John Bezaitis",
+ "role": "Student - University of Illinois @ Urbana-Champaign",
+ "location": "Evanston, IL",
+ "email": "john@bezaitis.com",
+ "linkedin": "https://www.linkedin.com/in/johnbezaitis/",
+ "github": "https://github.com/bezaitis",
+ "resume": "https://drive.google.com/file/d/1PSrfaWHsX07tFC6suM3eOyqAlqlM1iW-/view?usp=drive_link",
+ "home": {
+  "bio": [
+   "Hi! I'm John Bezaitis, a senior at the University of Illinois at Urbana-Champaign studying Economics and Statistics. This summer, I'm working at Golub Capital, one of the largest private credit firms in the United States, as an Operations Intern.",
+   "On campus, I serve as a Senior Analyst in the University of Illinois Investment Management Academy, a student-run portfolio of $1.5 million benchmarked against the S&P 600. I'm also the President of the Euchre League, a card-playing organization that brings together over 100 members each week around the game of Euchre. Outside of those roles, I volunteer as a mentor with the Illini Mentor Program, an afterschool initiative supporting local elementary school students.",
+   "When I'm not on campus, you can find me [sailing](/sailing/), playing cards, traveling, or cheering on the [Chicago Bears](/dabears/). I also have a dog named Poppy (arguably the best puppy ever) and you can check out some photos of her [here](/poppy/).",
+   "Thanks for stopping by! Be sure to explore my [trips](/trips/) page to see what I've been up to lately, along with some exciting plans on the horizon."
+  ],
+  "photo": {
+   "trip": "new-zealand",
+   "file": "01.webp",
+   "alt": "John sitting on the grass above a turquoise lake in New Zealand"
+  }
+ },
+ "about": {
+  "text": [
+   "I am a student with a passion for finance, data-analytics, and education. I love working at the intersection of all three fields, where I can combine my soft skills in education with my hard skills built by my coursework and extracurriculars.",
+   "With a background in economics and statistics, I've been able to leverage my experience to real world applications like the Investment Management Academy and Golub Capital. Today, I'm looking to pursue my next opportunity to get a better grasp on what the world around me has to offer.",
+   "My curiosity, energy, and desire to explore are traits that define me. I take every opportunity I can to say 'yes', and I'm always looking for the next break in my schedule to do something new.",
+   "I bring this mentality to my work, grounded in the belief that communication and stepping up to every opportunity are the most important drivers of a successful team. Ensuring every idea is heard, leveraging people’s strengths, and establishing a clear plan of action are essential to delivering high-quality work on time. It’s no different from scaling the Andes deep in the Peruvian forest with a hiking group. Making sure everyone is equipped with supplies, routes are mapped, and morale stays high are all fundamental to putting one foot in front of the other.",
+   "I'm always looking for the next opportunity or trip to plan. If you're interested in connecting, or just want to share stories about the latest adventure, I’d love to hear from you!",
+   "You can also read more about my work [here](/work/)."
+  ],
+  "photos": [
+   {
+    "file": "01.webp",
+    "alt": "Hikers on a rocky ridge above a turquoise mountain lake"
+   },
+   {
+    "file": "02.webp",
+    "alt": "Hot air balloons rising into a clear blue sky"
+   }
+  ]
+ },
+ "work_page": {
+  "text": [
+   "My work is driven by a passion for financial research and data analytics.",
+   "My background in economics and statistics, paired with my time at Golub Capital, Cerity Partners, and the Investment Management Academy has allowed me to elevate my passion for finance, economics, and statistics to another level. I work best in teams where communication is rewarded, and free-flowing ideas are enouraged.",
+   "Below, you can find several data analysis projects I have worked on, as well as a few of the pitches I have collaborated on during my time in the Investment Management Academy. You can find the link to the equity reports and full valuation models in each project."
+  ],
+  "closing": "As a senior analyst, I hope to continue providing in-depth equity reports for IMA as we outperform our benchmark. I hope to gain more exposure to different industries in my remaining year, and I can't wait to find the next play. If you have any questions regarding my work, or would just like to start a conversation, please do [get in touch](mailto:john@bezaitis.com)."
+ },
+ "trips_page": {
+  "text": [
+   "Welcome to my favorite part of this site!",
+   "This is where I share about some of the travels I've had the privilege to take. I'd love to talk about some of my trips with you, and what I've got planned next!"
+  ]
+ },
+ "trips": [
+  {
+   "slug": "taiwan-solo",
+   "title": "Taiwan Solo",
+   "date": "2026-05",
+   "countries": [
+    "158"
+   ],
+   "pin": null,
+   "text": [
+    "My last trip abroad from Hong Kong was a five day solo trip in Taiwan. After my initial visit, I wanted to go back to explore the nature that lies on the east coast. Suffice to say it did not disappoint. I spent my days taking the train from city to city, renting bikes, going for mountain walks, and eating delicious food at night markets. At one point on accident, I ended up eating pork fallopian tubes!"
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "south-korea",
+   "title": "South Korea",
+   "date": "2026-05",
+   "countries": [
+    "410"
+   ],
+   "pin": null,
+   "text": [
+    "I jumped across the East China Sea to visit South Korea next. South Korea was full of incredible stores, fashion, and of course, barbecue. My friends and I enjoyed KBBQ every night, as well as lots of shopping, and a trip to the de-militarized zone. It was incredible to see North Korea with my own eyes. We also went to a local baseball game, which was super fun, especially with all of the crowd involvement."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "shanghai",
+   "title": "Shanghai",
+   "date": "2026-04",
+   "countries": [
+    "156"
+   ],
+   "pin": [
+    121.4737,
+    31.2304
+   ],
+   "text": [
+    "My third trip to mainland China was spent in Shanghai! I explored The Bund, had meat skewer dinners, and checked out the five-story club 'INS' with my friends. I'll say I experienced a lot less stares from locals than I did in other locations around mainland China."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "vietnam",
+   "title": "Vietnam",
+   "date": "2026-04",
+   "countries": [
+    "704"
+   ],
+   "pin": null,
+   "text": [
+    "I caught a plane with four of my friends to Da Nang, Vietnam, next. I was blown away by the textile industry, with custom tailoring available for any possible request you could imagine. While my friends went for matching sets, I settled for my first basketball jersey: a Michael Jordan dupe."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "the-philippines",
+   "title": "The Philippines",
+   "date": "2026-04",
+   "countries": [
+    "608"
+   ],
+   "pin": null,
+   "text": [
+    "The second stop of spring break with Mom was to visit The Philippines! The duration of our stay was spent on Siargao island, which is renowned for its glorious surfing. I spent my time drinking unbelievable mango smoothies and watching stunning sunsets."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "beijing",
+   "title": "Beijing",
+   "date": "2026-03",
+   "countries": [
+    "156"
+   ],
+   "pin": [
+    116.4074,
+    39.9042
+   ],
+   "text": [
+    "During my second trip to mainland China, I was able to meet-up with my Mom who was on a work trip. Tanfu kindly gave us a tour of the city, where I got to visit the Forbidden Palace and Tiananmen Square, the Great Wall of China, and have traditional Beijing hotpot!"
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "thailand",
+   "title": "Thailand",
+   "date": "2026-03",
+   "countries": [
+    "764"
+   ],
+   "pin": null,
+   "text": [
+    "My weekend trip to Thailand was packed with activities like a food tour with 15 different dishes, a visit to the Grand Palace, and rides on motorcycles! I had a great time traveling with new friends I made from the states. After this trip, I can confidently say Thai cuisine is in my top three favorites!"
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "taiwan",
+   "title": "Taiwan",
+   "date": "2026-02",
+   "countries": [
+    "158"
+   ],
+   "pin": null,
+   "text": [
+    "Taiwan was great exposure to a westernized government in the east! Personally, I felt noticeably more at ease in Taiwan than in mainland China - kind of a similar vein to my unease in the UAE. Some of the best food I've ever had, with amazing nature, and even a lantern festival to top it all off!"
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "chengdu",
+   "title": "Chengdu",
+   "date": "2026-02",
+   "countries": [
+    "156"
+   ],
+   "pin": [
+    104.0665,
+    30.5728
+   ],
+   "text": [
+    "In my first visit to mainland China, I reconnected with an old University friend, Tanfu! He very kindly hosted me, introducing me to the beautiful city of Chengdu and the Sichuan province. I saw pandas, ate spicy hotpot, and played Sichuanese Mahjong!"
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "macao",
+   "title": "Macao",
+   "date": "2026-02",
+   "countries": [
+    "446"
+   ],
+   "pin": [
+    113.5439,
+    22.1987
+   ],
+   "text": [
+    "In the first of several trips during my study abroad in Hong Kong, Macao was a great trip with friends! Had fun on a short ferry over to the former Portuguese colony, and visited the largest casino in the world (The Venetian Macao)."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp"
+   ]
+  },
+  {
+   "slug": "australia",
+   "title": "Australia",
+   "date": "2026-01",
+   "countries": [
+    "036"
+   ],
+   "pin": null,
+   "text": [
+    "Got to visit Sydney in a brief stint in Australia! Explored the botanic gardens, Chinatown, and the Sydney Opera House! I wish I got to see a kangaroo, but all the more reason to come back!"
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp"
+   ]
+  },
+  {
+   "slug": "new-zealand",
+   "title": "New Zealand",
+   "date": "2026-01",
+   "countries": [
+    "554"
+   ],
+   "pin": null,
+   "text": [
+    "My dad and I visited to New Zealand on the way to my study abroad program in Hong Kong. We visited both the North and South Islands. My personal highlight was Milford Sound, the sheer cliff faces were absolutely mind boggling. Overall, the island life and infinite number of sheep made for a memorable trip! It was extremely saddening to read about the colonization, deforestation, and ecological disasters that the country faces, however (including the presence of said sheep).)"
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "norway",
+   "title": "Norway",
+   "date": "2025-12",
+   "countries": [
+    "578"
+   ],
+   "pin": null,
+   "text": [
+    "My mom, sisters, and I all journeyed out to Norway this past winter to explore my first Scandinavian country, and my first time in the arctic circle. It was undeniably beautiful walking through the forests and fjords. The further north we got, the shorter the days, which I found had a bigger toll on my mental health/mind than I expected it to."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "banff",
+   "title": "Banff",
+   "date": "2025-03",
+   "countries": [
+    "124"
+   ],
+   "pin": [
+    -115.5708,
+    51.1784
+   ],
+   "text": [
+    "Enjoyed a family trip to Banff, Canada to go skiing! I'm fairly new to skiing, so I had a lot of fun picking up where I left off on blues. I also tried my first black diamond for the first time on 'Waterfall'."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp"
+   ]
+  },
+  {
+   "slug": "netherlands",
+   "title": "Netherlands",
+   "date": "2025-01",
+   "countries": [
+    "528"
+   ],
+   "pin": null,
+   "text": [
+    "The majority of my time in the Netherlands was spent in its capital, Amsterdam. It’s a stunning city with a rich history and an endless stream of bicycles around every corner. I loved exploring its winding canals, tucked-away side streets, and cozy hole-in-the-wall pubs."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "uae",
+   "title": "United Arab Emirates",
+   "date": "2025-01",
+   "countries": [
+    "784"
+   ],
+   "pin": null,
+   "text": [
+    "Visiting the UAE was an eye-opening experience. It was packed with shopping malls, theme parks, and artificial waterfronts. Although dubbed the safest city in the world, I found the presence of cameras everywhere to be a bit disconcerting."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp"
+   ]
+  },
+  {
+   "slug": "egypt",
+   "title": "Egypt",
+   "date": "2024-12",
+   "countries": [
+    "818"
+   ],
+   "pin": null,
+   "text": [
+    "One of my most recent trips, I embarked on this one with my good friend Conor. We explored Cairo and Luxor, seeing the pyraminds, tombs, and old temples. Our adventures were peppered with ATVs, soviet-era trains, and even hot air balloons!"
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp"
+   ]
+  },
+  {
+   "slug": "peru",
+   "title": "Peru",
+   "date": "2024-05",
+   "countries": [
+    "604"
+   ],
+   "pin": null,
+   "text": [
+    "Peru was an incredible experience. We backpacked for a week through the Andes on the Salkantay Trek, reaching as high as 15,000 feet above sea level. Our arduous journey was rewarded with a eye-popping view of Machu Picchu, one of the seven wonders of the world."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp"
+   ]
+  },
+  {
+   "slug": "japan",
+   "title": "Japan",
+   "date": "2023-04",
+   "countries": [
+    "392"
+   ],
+   "pin": null,
+   "text": [
+    "Visiting Japan was a dream of mine for a long time. I can convincingly say it lived up to it's expectations! With rich culture, delicious food, and amazing high-speed rail, my trip to Japan was incredible."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "london",
+   "title": "London",
+   "date": "2022-07",
+   "countries": [
+    "826"
+   ],
+   "pin": [
+    -0.1276,
+    51.5074
+   ],
+   "text": [
+    "My trip to London included a summer program studying Global Economics and Business at Cambridge University. I had a ton of fun meeting studying with other students across the globe!"
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp"
+   ]
+  },
+  {
+   "slug": "greece",
+   "title": "Greece",
+   "date": "2022-06",
+   "countries": [
+    "300"
+   ],
+   "pin": null,
+   "text": [
+    "Being Greek, the Cyclades are one of my favorite places on earth. I had a blast sailing through the thousands of islands, learning the history, and enjoying the ocean breeze."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp"
+   ]
+  }
+ ],
+ "work": [
+  {
+   "slug": "sally-beauty-holdings",
+   "title": "Sally Beauty Holdings, Inc.",
+   "tagline": "Color Grows, Share Count Shrinks, Multiple Stays Cheap",
+   "summary": "Sally Beauty Holdings (SBH, \"Sally Beauty,\" or \"the Company\") is the largest distributor and specialty retailer of professional beauty supplies in the United States.",
+   "text": [
+    "Sally Beauty Supply is a network of 3,066 stores plus digital platforms selling professional-grade hair color, care, and nail products to retail consumers and stylists. Beauty Systems Group (BSG) is a professional-only distributor that serves salons and licensed stylists through 1,320 CosmoProf and Armstrong McCall stores, a field sales force, and e-commerce.",
+    "Over the past three years, management has run the Fuel for Growth program, which is expected to deliver roughly $120mm of cumulative run-rate savings by the end of fiscal 2026. The result has been a leaner operating model that converts about $225mm of free cash flow annually on a market cap of roughly $1.5bn. Half of that free cash flow goes to share repurchases and debt reduction.",
+    "At the consolidated level, however, SBH looks stagnant. Q3 FY26 net sales grew 0.2%, comparable sales were flat, and constant-currency revenue has been essentially unchanged over the past nine months. That headline masks two businesses moving in opposite directions: Sally is a growing specialty retailer, while BSG is losing share to L'Oréal's SalonCentric.",
+    "Currently, we believe SBH is undervalued because the market emphasizes the flat consolidated performance of Sally Beauty Company’s two segments, rather than looking at each segment separately. The market prices Sally Beauty as a declining business while overlooking the fact that Sally Beauty company is a major market player with competitive moat in their hair color and care products."
+   ],
+   "logo": "01.webp",
+   "exhibit": "02.webp",
+   "links": [
+    {
+     "label": "Report",
+     "href": "https://drive.google.com/file/d/1iDapgG_pZs3XDik7lsjBs8-fTjNpoT1U/view?usp=drive_link"
+    },
+    {
+     "label": "Model",
+     "href": "https://docs.google.com/spreadsheets/d/1SB2Sz9JuCUA4s1ABHaEG9xRsGeYAbh7F/edit?usp=drive_link&ouid=103999902401813951640&rtpof=true&sd=true"
+    }
+   ]
+  },
+  {
+   "slug": "march-madness-wins-cluster",
+   "title": "March Madness Wins Cluster",
+   "tagline": "Monte Carlo + Knapsack Expected Wins Optimizer",
+   "summary": "A Monte Carlo + knapsack optimization pipeline that picks the optimal NCAA Tournament roster for \"Expected Wins\" bracket contests — separately optimizing men's and women's 100-point budgets to maximize simulated tournament wins.",
+   "text": [
+    "This project builds an end-to-end pipeline for optimizing entries in NCAA Tournament \"Expected Wins\" contests, where each team costs a fixed number of points (scaled by seed) and the goal is to maximize total tournament wins under a shared budget. For every team, a composite score blends T-Rank (Torvik) efficiency ratings, NCAA NET rankings, and a seed-based \"chalk\" factor, with the blend weights backtested across six historical tournaments (2019, 2021–2025) to find the combination that would have scored best in real contests, landing on an 80/10/10 T-Rank/NET/chalk split for the men's field and a chalk-heavier 30/20/50 split for the women's, whose NET data is less reliable pre-tournament.",
+    "Win probabilities between any two teams come from a logistic model on composite-score differences, calibrated so a 1-seed beats a 16-seed about 98.7% of the time, then run through 50,000 Monte Carlo simulations of the full bracket to get each team's expected wins and win distribution. From there, the men's and women's rosters are each solved as independent 0/1 knapsack problems to find the team cluster that maximizes total expected wins for a 100-point budget: for 2026, a 14-team men's cluster (anchored by Gonzaga, Vanderbilt, and a run of 5- and 8-seeds) projecting 17.54 expected wins, and a 10-team women's cluster (led by three 3-seeds and three 5-seeds) projecting 17.25.",
+    "The analysis goes further with sensitivity testing across budget levels, alternative near-optimal clusters within 0.2 expected wins of the top pick, and a full risk profile featuring simulated win distributions, standard deviations, and the probability of rostering an eventual champion, all so that the optimizer isn't just chasing a single point estimate but showing the range of realistic outcomes."
+   ],
+   "logo": "01.webp",
+   "exhibit": "02.webp",
+   "links": [
+    {
+     "label": "Report",
+     "href": "https://drive.google.com/file/d/1DbGKhbyEu2efFDC4_12Lvoepet2qTkqk/view?usp=drive_link"
+    }
+   ]
+  },
+  {
+   "slug": "statistical-modeling-final-project",
+   "title": "Statistical Modeling Final Project",
+   "tagline": "Esports Statistical Analysis",
+   "summary": "Applied OLS, LASSO, and PCR to predict match duration from esports performance data.",
+   "text": [
+    "For this project, I analyzed professional League of Legends match data to model and predict game duration using statistical learning methods. After cleaning and structuring a large dataset of international matches, I explored early- and mid-game performance metrics and built multiple predictive models, including OLS, LASSO, and Principal Components Regression. I compared these models using a train–test split and found that LASSO achieved the lowest RMSE by selecting the most informative predictors and reducing multicollinearity. The results highlight how a small set of tempo-driving variables, such as kill pace and objective control, can reliably forecast match length."
+   ],
+   "logo": "01.webp",
+   "exhibit": "02.webp",
+   "links": [
+    {
+     "label": "Report",
+     "href": "https://drive.google.com/file/d/1xsXgw7jwB2sQoN_3bUkSwgVpoA0VWPeD/view?usp=drive_link"
+    }
+   ]
+  },
+  {
+   "slug": "sandia-national-labs-datathon",
+   "title": "Sandia National Labs Datathon",
+   "tagline": "Sandia Labs Datathon",
+   "summary": "I had the pleasure of participating in the Sandia National Labs Datathon, a 72 hour blitz focused on analyzing manufacturing data.",
+   "text": [
+    "During the Sandia National Laboratories Data Challenge, I analyzed over 1,500 additive manufacturing observations to identify key drivers of part scrap and nonconformity. I engineered process-level features from geometric specifications such as lip diameter, height, and thickness measurements, creating binary “in-spec” indicators to quantify deviation from manufacturing tolerances. Using R, I conducted exploratory data analysis to understand patterns in the data and identify potential relationships between process variables and part quality. I then applied statistical and machine learning models, including logistic regression, ANOVA, and Random Forest classification, to evaluate these relationships. Through this analysis, I determined which process and dimensional variables most strongly influenced the probability of a part being scrapped. I visualized spatial and temporal defect patterns through heatmaps, week-by-week scatter plots, and specification limit overlays, uncovering that lip thickness variability (particularly LT3 and LT4) and layout configuration were the most significant predictors of scrap. The project concluded with actionable insights linking geometric precision to material type and layout design, supporting data-driven process optimization for additive manufacturing quality control."
+   ],
+   "logo": "01.webp",
+   "exhibit": "02.webp",
+   "links": [
+    {
+     "label": "Report",
+     "href": "https://docs.google.com/presentation/d/1FtI5gKXWkCTXrNnwa4LhM8tMYfP9PSxb/edit?usp=drive_link&ouid=103999902401813951640&rtpof=true&sd=true"
+    }
+   ]
+  },
+  {
+   "slug": "adtalem-global-education-inc",
+   "title": "Adtalem Global Education Inc.",
+   "tagline": "For-profit Healthcare Education Pipeline",
+   "summary": "Adtalem Global Education Inc. (Adtalem) is a for-profit healthcare education provider offering nursing, medical, and veterinary programs through institutions like Chamberlain and Walden University.",
+   "text": [
+    "Adtalem Global Education Inc. (Adtalem, The Company) is a for profit education provider specializing in training nurses, veterinarians, and professionals in other healthcare-related fields. Adtalem operates through three main institutions: Chamberlain University, the largest nursing school in the United States, Walden University, and three medical and veterinary schools. The company largely generates revenue from student tuition and fees, and is heavily reliant on Title IV funding, which provides students a way to fund their education. Adtalem has seen major success in recent quarters, demolishing enrollment records, and achieving revenue growth for the last five years straight. Building on this trajectory, the company is positioned for a strong FY 2026 as momentum continues across its portfolio of institutions. This growth is guided by its “Growth with Purpose” strategy, which implies horizontal expansion into in-demand healthcare education markets and operational excellence. Adtalem offers a low cost, online education alternative compared to traditional universities."
+   ],
+   "logo": "01.webp",
+   "exhibit": "02.webp",
+   "links": [
+    {
+     "label": "Report",
+     "href": "https://drive.google.com/file/d/1Inrr-fYfgAK1YOERPs33XMEIz6U3ybS5/view?usp=drive_link"
+    },
+    {
+     "label": "Model",
+     "href": "https://docs.google.com/spreadsheets/d/17YeFXLJmKucphai9KNdkX3ZkiZ2Y_qu8/edit?usp=drive_link&ouid=103999902401813951640&rtpof=true&sd=true"
+    }
+   ]
+  },
+  {
+   "slug": "progress-software-corporation",
+   "title": "Progress Software Corp.",
+   "tagline": "Enterprise SaaS Distributor",
+   "summary": "Progress Software Corporation (PRGS) is a global provider of enterprise software solutions that delivers application development, data connectivity, and digital experience technologies to help businesses build, deploy, and manage mission-critical applications.",
+   "text": [
+    "Progress Software Corporation (PRGS, “Progress” or “The Company”) is a global provider of enterprise software solutions, historically recognized for its disciplined, acquisition-driven growth model. Over the past five years, Progress has executed approximately one acquisition annually, targeting complementary SaaS businesses that enhance their product portfolio and recurring revenue base. ShareFile, which was recently acquired, represents a strategic step toward AI exposure through an AIenabled, document-centric collaboration platform. Progress also recently completed a small acquisition of Nuclia, a retrieval augmented generation (RAG) focused company in late June. Progress has faced organic headwinds in 2025 as Progress works to integrate ShareFile into its broader SaaS portfolio. This has fueled investor concerns around execution risk and the Company’s long-term resiliency in an environment where agentic AI is increasingly viewed as a disruptive substitute for SaaS offerings. We believe the recent compression in PRGS’s valuation is overstated, as the market underappreciates the durability of Progress’s disciplined M&A framework and its ability to leverage AI as an enhancer rather than a replacement to its portfolio."
+   ],
+   "logo": "01.webp",
+   "exhibit": "02.webp",
+   "links": [
+    {
+     "label": "Report",
+     "href": "https://drive.google.com/file/d/1F_kRcZiLNEof_ya4aqO-2LZ91UgXm-Xr/view?usp=drive_link"
+    },
+    {
+     "label": "Model",
+     "href": "https://docs.google.com/spreadsheets/d/1f6Or4skrfo8-KJWKj_MCxrJJTeofU7xw/edit?usp=drive_link&ouid=103999902401813951640&rtpof=true&sd=true"
+    }
+   ]
+  },
+  {
+   "slug": "goosehead-insurance",
+   "title": "Goosehead Insurance Inc.",
+   "tagline": "Hyper-growth Insurance Broker",
+   "summary": "Goosehead Insurance was a hyper-growth insurance broker that we pitched to IMA as a long-term revenue play driven by three main segments: franchise consolidation, emerging soft-pricing cycle, and development of the embedded insurance segment.",
+   "text": [
+    "Goosehead Insurance, Inc. (GSHD, “Goosehead” or “the Company”) is a rapidly growing independent personal lines insurance agency that operates a differentiated, technology-driven distribution model. Founded in 2003, Goosehead operates in a two-segment approach consisting of corporate-owned and franchise offices to deliver customized insurance solutions across home, auto, and other personal lines products. Goosehead partners with over 150 national and regional carriers, allowing agents to offer clients a broad selection of coverage options rather than a single underwriter’s product. Goosehead’s value proposition lies in its scalable technology platform and focus on client experience, which has driven strong policy retention and recurring commission revenue (no underwriting risk). While the Company faced a challenging macro backdrop in recent years, marked by elevated interest rates and a soft housing market, management’s continued investments in franchise expansion and digital infrastructure have positioned Goosehead for sustained long-term growth. We believe investor concerns around Goosehead’s weak 2025 are overstated and underestimate the durability of Goosehead’s model, as its franchise network and technology advantages continue to compound over time."
+   ],
+   "logo": "01.webp",
+   "exhibit": "02.webp",
+   "links": [
+    {
+     "label": "Report",
+     "href": "https://drive.google.com/file/d/1HorOxWlkzMaldcDXjmyjPqbwhi7DrCZ7/view?usp=drive_link"
+    },
+    {
+     "label": "Model",
+     "href": "https://docs.google.com/spreadsheets/d/1RQKBp5imL65GgDrDUNBM6C_EOZMDYHQs/edit?usp=drive_link&ouid=103999902401813951640&rtpof=true&sd=true"
+    }
+   ]
+  }
+ ],
+ "pages": [
+  {
+   "slug": "poppy",
+   "title": "Poppy",
+   "text": [
+    "Poppy is my 13 year old English Labrador! She's been in the family since I was 10 years old, and is the sweetest dog on earth. This page is dedicated to her."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "sailing",
+   "title": "Sailing",
+   "text": [
+    "Growing up near Lake Michigan, I sailed every summer.  Sailing has been the source of some of my greatest and scariest memories.",
+    "Dubbed 'Black Thursday' by the sailing team, 20 boats were caught in a storm offshore without enough coach boats to get every member off the water. Winds were gusting up to 50mph as capsized boats were picked up out of the water and flipped over in the air like paper in the wind. I was shoved about 15ft under the water when a centerboard caught the neck of my lifejacket as the boat flipped in a gust. I managed to swim to the surface, and was eventually scooped up by a coach boat as we drifted closer to the rocks lining the shoreline. Fortunately, everyone was okay at the end of the day, but 4 boats were smashed to pieces against the rocks. Although a fun story to tell now, this was a wake up call about the dangers of the lake!"
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  },
+  {
+   "slug": "dabears",
+   "title": "Da Bears",
+   "text": [
+    "I am a die hard Bears fan. I've been following the team closely since we drafted Mitchell Trubisky. Remaining a Fields truther throughout 2023 (yes, I thought we should draft MHJ and build around Fields). Although the last decade hasn't been easy, Caleb and Ben are bringing a new era to Chicago. Two of my favorite memories were watching the DJ Moore walkoff TD against the Pack with my family and friends, and watching the Kmet TD against the Rams in New Zealand with my Dad. Bear down, and FTP!"
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp"
+   ]
+  }
+ ]
+}
