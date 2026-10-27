@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>March Madness Wins Cluster | John Bezaitis</title>
+<meta name="description" content="A Monte Carlo + knapsack optimization pipeline that picks the optimal NCAA Tournament roster for &quot;Expected Wins&quot; bracket contests — separately optimizing…">
+<link rel="canonical" href="https://bezaitis.com/work/march-madness-wins-cluster/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="March Madness Wins Cluster | John Bezaitis">
+<meta property="og:description" content="A Monte Carlo + knapsack optimization pipeline that picks the optimal NCAA Tournament roster for &quot;Expected Wins&quot; bracket contests — separately optimizing…">
+<meta property="og:url" content="https://bezaitis.com/work/march-madness-wins-cluster/">
+<meta property="og:image" content="https://bezaitis.com/assets/icons/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/icons/favicon-light.png" media="(prefers-color-scheme: light)">
+<link rel="icon" href="/assets/icons/favicon-dark.png" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/assets/css/site.css?v=407fe202">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-nav">
+  <div class="wrap">
+    <a class="wordmark" href="/">John Bezaitis</a>
+    <nav aria-label="Main"><ul><li><a href="/trips/">Trips</a></li><li><a href="/work/" aria-current="page">Work</a></li><li><a href="/about/">About</a></li></ul></nav>
+    <a class="btn" href="https://drive.google.com/file/d/1PSrfaWHsX07tFC6suM3eOyqAlqlM1iW-/view?usp=drive_link" target="_blank" rel="noopener">Resume</a>
+  </div>
+</header>
+<main id="main">
+<div class="wrap doc-head">
+  <div>
+    <a class="crumb" href="/work/">All work</a>
+    <h1>March Madness Wins Cluster</h1>
+    <p class="lede">A Monte Carlo + knapsack optimization pipeline that picks the optimal NCAA Tournament roster for “Expected Wins” bracket contests — separately optimizing men’s and women’s 100-point budgets to maximize simulated tournament wins.</p>
+    <div class="actions"><a class="btn btn--primary" href="https://drive.google.com/file/d/1DbGKhbyEu2efFDC4_12Lvoepet2qTkqk/view?usp=drive_link" target="_blank" rel="noopener">Open the report</a></div>
+  </div>
+  <div class="logo-plate"><img src="/assets/img/work-march-madness-wins-cluster/01.webp?v=e3bdf44b" width="1600" height="676" alt="March Madness Wins Cluster logo" fetchpriority="high" decoding="async"></div>
+</div>
+<div class="wrap">
+  <figure class="sheet exhibit"><a class="exhibit-scroll" href="/assets/img/work-march-madness-wins-cluster/02.webp?v=f847a2c1" aria-label="Open the full-size exhibit"><img src="/assets/img/work-march-madness-wins-cluster/02.webp?v=f847a2c1" width="2400" height="1650" alt="Summary exhibit from the March Madness Wins Cluster analysis" loading="lazy" decoding="async"></a><figcaption class="meta">From the report.</figcaption></figure>
+</div>
+<section class="wrap section">
+  <div class="doc-body">
+    <h2>Overview</h2>
+    <div class="prose"><p>This project builds an end-to-end pipeline for optimizing entries in NCAA Tournament “Expected Wins” contests, where each team costs a fixed number of points (scaled by seed) and the goal is to maximize total tournament wins under a shared budget. For every team, a composite score blends T-Rank (Torvik) efficiency ratings, NCAA NET rankings, and a seed-based “chalk” factor, with the blend weights backtested across six historical tournaments (2019, 2021–2025) to find the combination that would have scored best in real contests, landing on an 80/10/10 T-Rank/NET/chalk split for the men’s field and a chalk-heavier 30/20/50 split for the women’s, whose NET data is less reliable pre-tournament.</p><p>Win probabilities between any two teams come from a logistic model on composite-score differences, calibrated so a 1-seed beats a 16-seed about 98.7% of the time, then run through 50,000 Monte Carlo simulations of the full bracket to get each team’s expected wins and win distribution. From there, the men’s and women’s rosters are each solved as independent 0/1 knapsack problems to find the team cluster that maximizes total expected wins for a 100-point budget: for 2026, a 14-team men’s cluster (anchored by Gonzaga, Vanderbilt, and a run of 5- and 8-seeds) projecting 17.54 expected wins, and a 10-team women’s cluster (led by three 3-seeds and three 5-seeds) projecting 17.25.</p><p>The analysis goes further with sensitivity testing across budget levels, alternative near-optimal clusters within 0.2 expected wins of the top pick, and a full risk profile featuring simulated win distributions, standard deviations, and the probability of rostering an eventual champion, all so that the optimizer isn’t just chasing a single point estimate but showing the range of realistic outcomes.</p></div>
+  </div>
+</section>
+<div class="wrap section section--tight" style="padding-top: 0">
+  <nav class="pager" aria-label="More"><a href="/work/sally-beauty-holdings/"><span>Previous project</span><strong>Sally Beauty Holdings, Inc.</strong></a><a class="next" href="/work/statistical-modeling-final-project/"><span>Next project</span><strong>Statistical Modeling Final Project</strong></a></nav>
+</div>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-intro">
+        <a class="mail" href="mailto:john@bezaitis.com">john@bezaitis.com</a>
+        <p>If you’re interested in connecting, or just want to share stories about the latest adventure, I’d love to hear from you!</p>
+      </div>
+      <div>
+        <h2>Elsewhere</h2>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/johnbezaitis/" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/bezaitis" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://drive.google.com/file/d/1PSrfaWHsX07tFC6suM3eOyqAlqlM1iW-/view?usp=drive_link" target="_blank" rel="noopener">Resume</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Also on this site</h2>
+        <ul>
+          <li><a href="/poppy/">Poppy</a></li>
+          <li><a href="/sailing/">Sailing</a></li>
+          <li><a href="/dabears/">Da Bears</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-base">© John Bezaitis, 2026</p>
+  </div>
+</footer>
+</body>
+</html>
