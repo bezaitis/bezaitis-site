@@ -285,6 +285,35 @@
    ]
   },
   {
+   "slug": "hong-kong",
+   "title": "Hong Kong",
+   "date": "2026-01",
+   "countries": [
+    "344"
+   ],
+   "pin": [
+    114.1694,
+    22.3193
+   ],
+   "text": [
+    "I spent the spring semester of 2026 studying abroad in Hong Kong at Hong Kong University of Science and Technology (HKUST), which became my home base for every trip that followed. Between classes, I hiked to peaks overlooking the skyline, wandered through fishing villages and wet markets, played plenty of mahjong, and explored the city's street markets with friends. Riding the MTR, exploring Lantau Island and Lan Kwai Fong, and walking through Hang Hau, I got to truly learn a beautiful city. Living in one of the densest cities in the world, with mountains and beaches a short ride away, was an experience I'll never forget."
+   ],
+   "photos": [
+    "01.webp",
+    "02.webp",
+    "03.webp",
+    "04.webp",
+    "05.webp",
+    "06.webp",
+    "07.webp",
+    "08.webp",
+    "09.webp",
+    "10.webp",
+    "11.webp",
+    "12.webp"
+   ]
+  },
+  {
    "slug": "australia",
    "title": "Australia",
    "date": "2026-01",
