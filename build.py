@@ -21,7 +21,7 @@ SITE_URL = "https://bezaitis.com"
 CONTENT = json.loads((ROOT / "content" / "site.json").read_text())
 
 COUNTRY_NAMES = {
-    "036": "Australia", "124": "Canada", "156": "China", "158": "Taiwan", "300": "Greece",
+    "036": "Australia", "124": "Canada", "156": "China", "158": "Taiwan", "300": "Greece", "344": "Hong Kong",
     "392": "Japan", "410": "South Korea", "446": "Macao", "528": "Netherlands", "554": "New Zealand",
     "578": "Norway", "604": "Peru", "608": "The Philippines", "704": "Vietnam", "764": "Thailand",
     "784": "United Arab Emirates", "818": "Egypt", "826": "United Kingdom",
